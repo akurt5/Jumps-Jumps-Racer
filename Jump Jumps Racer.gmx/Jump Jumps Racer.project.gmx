@@ -11,6 +11,8 @@
       <sprite>sprites\spr_Terrain</sprite>
     </sprites>
     <sprite>sprites\spr_manager</sprite>
+    <sprite>sprites\spr_Static</sprite>
+    <sprite>sprites\spr_Dynamic</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,9 +20,13 @@
     <script>scripts\scr_Terrain.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\Car</object>
-    <object>objects\Terrain</object>
-    <object>objects\obj_terrain_manager</object>
+    <object>objects\obj_Car</object>
+    <object>objects\obj_Terrain</object>
+    <object>objects\obj_Terrain_Manager</object>
+    <objects name="Physics">
+      <object>objects\obj_Actor_Dynamic</object>
+      <object>objects\obj_Actor_Static</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

@@ -29,8 +29,10 @@
 
 seed = 0;
 height = 10;
+sprWidth = sprite_get_width(spr_Terrain);
+sprHeight = sprite_get_height(spr_Terrain);
 
-scr_Terrain(seed,height,6,96);
+scr_Terrain(seed,height,sprWidth,sprHeight);
 </string>
           </argument>
         </arguments>
